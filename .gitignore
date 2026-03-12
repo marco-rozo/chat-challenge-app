@@ -1,0 +1,34 @@
+# ==============================
+# Global ignores (apply to all apps)
+# ==============================
+node_modules/
+.DS_Store
+*.pem
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ==============================
+# Next.js App: chat-challenge-next-app
+# ==============================
+chat-challenge-next-app/.next/
+chat-challenge-next-app/out/
+chat-challenge-next-app/build/
+chat-challenge-next-app/.vercel/
+chat-challenge-next-app/*.tsbuildinfo
+chat-challenge-next-app/next-env.d.ts
+chat-challenge-next-app/coverage/
+
+# ==============================
+# Node.js App: chat-challenge-node-app
+# ==============================
+chat-challenge-node-app/dist/
+chat-challenge-node-app/build/
+chat-challenge-node-app/coverage/
